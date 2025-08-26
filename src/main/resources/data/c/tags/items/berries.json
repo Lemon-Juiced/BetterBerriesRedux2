@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "#c:berries/blackberries",
+    "#c:berries/blueberries",
+    "#c:berries/candleberries",
+    "#c:berries/cranberries",
+    "#c:berries/glow_berries",
+    "#c:berries/maloberries",
+    "#c:berries/mulberries",
+    "#c:berries/raspberries",
+    "#c:berries/strawberries",
+    "#c:berries/sweet_berries"
+  ]
+}

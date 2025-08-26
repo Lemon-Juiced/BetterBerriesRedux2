@@ -1,0 +1,28 @@
+{
+  "values": {
+    "bbr2:blackberries": {
+      "chance": 0.3
+    },
+    "bbr2:blueberries": {
+      "chance": 0.3
+    },
+    "bbr2:candleberries": {
+      "chance": 0.3
+    },
+    "bbr2:cranberries": {
+      "chance": 0.3
+    },
+    "bbr2:maloberries": {
+      "chance": 0.3
+    },
+    "bbr2:mulberries": {
+      "chance": 0.3
+    },
+    "bbr2:raspberries": {
+      "chance": 0.3
+    },
+    "bbr2:strawberries": {
+      "chance": 0.3
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#c:berry_biomes",
+  "features": "bbr2:blackberry_bush_placed",
+  "step": "vegetal_decoration"
+}

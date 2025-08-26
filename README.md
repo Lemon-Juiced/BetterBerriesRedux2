@@ -1,25 +1,18 @@
+# Better Berries Redux 2
+The 1.21.1 Revival of Better Berries and its Addons.
 
-Installation information
-=======
+## Features
+- **New Overworld Berries:** Blackberries, Blueberries, Candleberries, Cranberries, Maloberries, Mulberries, Raspberries, Strawberries
+- **New Overworld Berry Bushes:** Blackberry, Blueberry, Candleberry, Cranberry, Maloberry, Mulberry, Raspberry, Strawberry Bushes
+- **New Nether Berries:** Crimson Berries, Soul Berries, Warped Berries, Waste Berries
+- **New Nether Berry Bushes:** Crimson, Soul, Warped, Waste Berry Bushes
+- **Berry Juices and Smoothies**
+- **Berry Jams and Jam on Toast**
+- All in the style of the existing Sweet Berries and Sweet Berry Bushes
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+## Credits & License
+Inspired by [Natura](https://www.curseforge.com/minecraft/mc-mods/natura) and [Pam's HarvestCraft](https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft).  
+Based on the original discontinued Better Berries Redux and Better Berries Redux Plus mods.
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
-
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
-
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
-
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+## License
+Licensed under the GNU GPLv3.

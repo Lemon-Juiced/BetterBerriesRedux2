@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "bbr2:block/raspberry_bush_stage0"
+    },
+    "age=1": {
+      "model": "bbr2:block/raspberry_bush_stage1"
+    },
+    "age=2": {
+      "model": "bbr2:block/raspberry_bush_stage2"
+    },
+    "age=3": {
+      "model": "bbr2:block/raspberry_bush_stage3"
+    }
+  }
+}
