@@ -1,6 +1,10 @@
 {
   "type": "neoforge:add_features",
-  "biomes": "#c:berry_biomes",
+  "biomes": [
+    "minecraft:windswept_hills",
+    "minecraft:windswept_forest",
+    "minecraft:meadow"
+  ],
   "features": "bbr2:raspberry_bush_placed",
   "step": "vegetal_decoration"
 }

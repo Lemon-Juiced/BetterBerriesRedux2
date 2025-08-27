@@ -1,6 +1,10 @@
 {
   "type": "neoforge:add_features",
-  "biomes": "#c:berry_biomes",
+  "biomes": [
+    "minecraft:plains",
+    "minecraft:meadow",
+    "minecraft:flower_forest"
+  ],
   "features": "bbr2:strawberry_bush_placed",
   "step": "vegetal_decoration"
 }
