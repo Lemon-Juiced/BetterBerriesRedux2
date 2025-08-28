@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "B",
+    "D"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:string"
+    },
+    "B": {
+      "item": "bbr2:candleberries"
+    },
+    "D": {
+      "item": "minecraft:light_gray_dye"
+    }
+  },
+  "result": {
+    "id": "minecraft:light_gray_candle",
+    "count": 1
+  }
+}

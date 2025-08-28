@@ -23,6 +23,9 @@
     },
     "bbr2:strawberries": {
       "chance": 0.3
+    },
+    "bbr2:berry_medley": {
+      "chance": 0.9
     }
   }
 }

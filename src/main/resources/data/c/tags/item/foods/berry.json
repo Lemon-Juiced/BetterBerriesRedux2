@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "#c:foods/berry/blackberries",
+    "#c:foods/berry/blueberries",
+    "#c:foods/berry/candleberries",
+    "#c:foods/berry/cranberries",
+    "#c:foods/berry/glow_berries",
+    "#c:foods/berry/maloberries",
+    "#c:foods/berry/mulberries",
+    "#c:foods/berry/raspberries",
+    "#c:foods/berry/strawberries",
+    "#c:foods/berry/sweet_berries"
+  ]
+}

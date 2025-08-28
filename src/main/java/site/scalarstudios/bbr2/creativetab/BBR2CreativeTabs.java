@@ -16,11 +16,12 @@ public class BBR2CreativeTabs {
 
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> BBR2_ITEMS_TAB = CREATIVE_MODE_TABS.register("bbr2_items", () -> CreativeModeTab.builder()
             .title(Component.translatable("itemGroup.bbr2.items"))
-            .icon(() -> new ItemStack(BBR2Items.BLUEBERRIES.get()))
+            .icon(() -> new ItemStack(BBR2Items.BERRY_MEDLEY.get()))
             .build());
 
     public static void registerTabs(BuildCreativeModeTabContentsEvent event) {
         if (event.getTab() == BBR2_ITEMS_TAB.get()) {
+            event.accept(BBR2Items.BERRY_MEDLEY.get());
             event.accept(BBR2Items.BLACKBERRIES.get());
             event.accept(BBR2Items.BLUEBERRIES.get());
             event.accept(BBR2Items.CANDLEBERRIES.get());

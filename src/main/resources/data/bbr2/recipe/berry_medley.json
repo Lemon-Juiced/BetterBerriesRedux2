@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "tag": "c:foods/berry"
+    },
+    {
+      "tag": "c:foods/berry"
+    },
+    {
+      "tag": "c:foods/berry"
+    }
+  ],
+  "result": {
+    "id": "bbr2:berry_medley",
+    "count": 1
+  }
+}
