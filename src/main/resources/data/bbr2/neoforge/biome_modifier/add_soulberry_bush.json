@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:soul_sand_valley"
+  ],
+  "features": "bbr2:soulberry_bush_placed",
+  "step": "vegetal_decoration"
+}

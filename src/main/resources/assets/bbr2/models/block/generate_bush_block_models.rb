@@ -2,7 +2,7 @@
 require 'json'
 
 # List of berry types
-berries = %w[blackberry blueberry candleberry cranberry maloberry mulberry raspberry strawberry]
+berries = %w[blackberry blueberry candleberry cranberry crimsonberry maloberry mulberry raspberry soulberry strawberry warpedberry wasteberry]
 
 # Output directory (relative to script location)
 output_dir = File.expand_path('../', __FILE__)

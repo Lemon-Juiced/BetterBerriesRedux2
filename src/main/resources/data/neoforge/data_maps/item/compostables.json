@@ -12,6 +12,9 @@
     "bbr2:cranberries": {
       "chance": 0.3
     },
+    "bbr2:crimsonberries": {
+      "chance": 0.3
+    },
     "bbr2:maloberries": {
       "chance": 0.3
     },
@@ -21,7 +24,16 @@
     "bbr2:raspberries": {
       "chance": 0.3
     },
+    "bbr2:soulberries": {
+      "chance": 0.3
+    },
     "bbr2:strawberries": {
+      "chance": 0.3
+    },
+    "bbr2:warpedberries": {
+      "chance": 0.3
+    },
+    "bbr2:wasteberries": {
       "chance": 0.3
     },
     "bbr2:berry_medley": {

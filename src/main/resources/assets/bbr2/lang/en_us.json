@@ -7,8 +7,24 @@
   "item.bbr2.blueberries": "Blueberries",
   "item.bbr2.candleberries": "Candleberries",
   "item.bbr2.cranberries": "Cranberries",
+  "item.bbr2.crimsonberries": "Crimsonberries",
   "item.bbr2.maloberries": "Maloberries",
   "item.bbr2.mulberries": "Mulberries",
   "item.bbr2.raspberries": "Raspberries",
-  "item.bbr2.strawberries": "Strawberries"
+  "item.bbr2.soulberries": "Soulberries",
+  "item.bbr2.strawberries": "Strawberries",
+  "item.bbr2.warpedberries": "Warpedberries",
+  "item.bbr2.wasteberries": "Wasteberries",
+
+  "block.bbr2.blackberry_bush": "Blackberry Bush",
+  "block.bbr2.blueberry_bush": "Blueberry Bush",
+  "block.bbr2.candleberry_bush": "Candleberry Bush",
+  "block.bbr2.crimsonberry_bush": "Crimsonberry Bush",
+  "block.bbr2.maloberry_bush": "Maloberry Bush",
+  "block.bbr2.mulberry_bush": "Mulberry Bush",
+  "block.bbr2.raspberry_bush": "Raspberry Bush",
+  "block.bbr2.soulberry_bush": "Soulberry Bush",
+  "block.bbr2.strawberry_bush": "Strawberry Bush",
+  "block.bbr2.warpedberry_bush": "Warpedberry Bush",
+  "block.bbr2.wasteberry_bush": "Wasteberry Bush"
 }

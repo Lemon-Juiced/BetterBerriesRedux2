@@ -13,6 +13,12 @@ import java.util.function.Supplier;
  * @author Lemon_Juiced
  */
 public class BBR2Bushes {
+    public static final String PLACEABLE_ON_DIRT = "dirt";
+    public static final String PLACEABLE_ON_CRIMSON = "crimson";
+    public static final String PLACEABLE_ON_SOUL = "soul";
+    public static final String PLACEABLE_ON_WARPED = "warped";
+    public static final String PLACEABLE_ON_NETHERRACK = "netherrack";
+
     public static final Supplier<BlockBehaviour.Properties> BERRY_BUSH_PROPERTIES = () ->
             BlockBehaviour.Properties.of()
                     .mapColor(MapColor.PLANT)

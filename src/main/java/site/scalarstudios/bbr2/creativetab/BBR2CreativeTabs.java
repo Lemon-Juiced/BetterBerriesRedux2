@@ -26,10 +26,14 @@ public class BBR2CreativeTabs {
             event.accept(BBR2Items.BLUEBERRIES.get());
             event.accept(BBR2Items.CANDLEBERRIES.get());
             event.accept(BBR2Items.CRANBERRIES.get());
+            event.accept(BBR2Items.CRIMSONBERRIES.get());
             event.accept(BBR2Items.MALOBERRIES.get());
             event.accept(BBR2Items.MULBERRIES.get());
             event.accept(BBR2Items.RASPBERRIES.get());
+            event.accept(BBR2Items.SOULBERRIES.get());
             event.accept(BBR2Items.STRAWBERRIES.get());
+            event.accept(BBR2Items.WARPEDBERRIES.get());
+            event.accept(BBR2Items.WASTEBERRIES.get());
         }
     }
 

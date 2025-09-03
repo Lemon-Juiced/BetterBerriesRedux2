@@ -19,10 +19,14 @@ public class BBR2Items {
     public static final DeferredItem<Item> BLUEBERRIES = ITEMS.register("blueberries", () -> new BerryItemNameBlockItem(BBR2Blocks.BLUEBERRY_BUSH.get(), new Item.Properties().food(BBR2Foods.BERRY)));
     public static final DeferredItem<Item> CANDLEBERRIES = ITEMS.register("candleberries", () -> new BerryItemNameBlockItem(BBR2Blocks.CANDLEBERRY_BUSH.get(), new Item.Properties().food(BBR2Foods.BERRY)));
     public static final DeferredItem<Item> CRANBERRIES = ITEMS.register("cranberries", () -> new BerryItemNameBlockItem(BBR2Blocks.CRANBERRY_BUSH.get(), new Item.Properties().food(BBR2Foods.BERRY)));
+    public static final DeferredItem<Item> CRIMSONBERRIES = ITEMS.register("crimsonberries", () -> new BerryItemNameBlockItem(BBR2Blocks.CRIMSONBERRY_BUSH.get(), new Item.Properties().food(BBR2Foods.BERRY)));
     public static final DeferredItem<Item> MALOBERRIES = ITEMS.register("maloberries", () -> new BerryItemNameBlockItem(BBR2Blocks.MALOBERRY_BUSH.get(), new Item.Properties().food(BBR2Foods.BERRY)));
     public static final DeferredItem<Item> MULBERRIES = ITEMS.register("mulberries", () -> new BerryItemNameBlockItem(BBR2Blocks.MULBERRY_BUSH.get(), new Item.Properties().food(BBR2Foods.BERRY)));
     public static final DeferredItem<Item> RASPBERRIES = ITEMS.register("raspberries", () -> new BerryItemNameBlockItem(BBR2Blocks.RASPBERRY_BUSH.get(), new Item.Properties().food(BBR2Foods.BERRY)));
+    public static final DeferredItem<Item> SOULBERRIES = ITEMS.register("soulberries", () -> new BerryItemNameBlockItem(BBR2Blocks.SOULBERRY_BUSH.get(), new Item.Properties().food(BBR2Foods.BERRY)));
     public static final DeferredItem<Item> STRAWBERRIES = ITEMS.register("strawberries", () -> new BerryItemNameBlockItem(BBR2Blocks.STRAWBERRY_BUSH.get(), new Item.Properties().food(BBR2Foods.BERRY)));
+    public static final DeferredItem<Item> WARPEDBERRIES = ITEMS.register("warpedberries", () -> new BerryItemNameBlockItem(BBR2Blocks.WARPEDBERRY_BUSH.get(), new Item.Properties().food(BBR2Foods.BERRY)));
+    public static final DeferredItem<Item> WASTEBERRIES = ITEMS.register("wasteberries", () -> new BerryItemNameBlockItem(BBR2Blocks.WASTEBERRY_BUSH.get(), new Item.Properties().food(BBR2Foods.BERRY)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

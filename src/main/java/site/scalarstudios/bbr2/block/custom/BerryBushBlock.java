@@ -5,6 +5,7 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
+import net.minecraft.tags.BlockTags;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.ItemInteractionResult;
@@ -19,9 +20,7 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.LevelReader;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.BonemealableBlock;
-import net.minecraft.world.level.block.BushBlock;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
@@ -32,6 +31,7 @@ import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.neoforged.neoforge.common.CommonHooks;
+import site.scalarstudios.bbr2.block.BBR2Bushes;
 
 import java.util.function.Supplier;
 
@@ -42,12 +42,33 @@ public class BerryBushBlock extends BushBlock implements BonemealableBlock {
     private static final VoxelShape SAPLING_SHAPE = Block.box(3.0D, 0.0D, 3.0D, 13.0D, 8.0D, 13.0D);
     private static final VoxelShape MID_GROWTH_SHAPE = Block.box(1.0D, 0.0D, 1.0D, 15.0D, 16.0D, 15.0D);
     private final Supplier<Item> berryItem;
+    private final String placeableOn;
 
     public BerryBushBlock(Properties properties, Supplier<Item> berryItem) {
         super(properties);
         this.berryItem = berryItem;
+        this.placeableOn = BBR2Bushes.PLACEABLE_ON_DIRT;
         this.registerDefaultState(this.stateDefinition.any().setValue(AGE, 0));
     }
+
+    public BerryBushBlock(Properties properties, Supplier<Item> berryItem, String placeableOn) {
+        super(properties);
+        this.berryItem = berryItem;
+        this.placeableOn = placeableOn;
+        this.registerDefaultState(this.stateDefinition.any().setValue(AGE, 0));
+    }
+
+    @Override
+    protected boolean mayPlaceOn(BlockState state, BlockGetter level, BlockPos pos) {
+        if (this.placeableOn.equals(BBR2Bushes.PLACEABLE_ON_CRIMSON)) return state.is(Blocks.CRIMSON_NYLIUM);
+        else if (this.placeableOn.equals(BBR2Bushes.PLACEABLE_ON_SOUL)) return state.is(Blocks.SOUL_SAND) || state.is(Blocks.SOUL_SOIL);
+        else if (this.placeableOn.equals(BBR2Bushes.PLACEABLE_ON_WARPED)) return state.is(Blocks.WARPED_NYLIUM);
+        else if (this.placeableOn.equals(BBR2Bushes.PLACEABLE_ON_NETHERRACK)) return state.is(Blocks.NETHERRACK);
+
+        // Else this is default behavior, placeable on dirt and farmland
+        return state.is(BlockTags.DIRT) || state.getBlock() instanceof FarmBlock;
+    }
+
 
     @Override
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {

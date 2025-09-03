@@ -25,10 +25,14 @@ public class BBR2Blocks {
     public static final DeferredBlock<Block> BLUEBERRY_BUSH = registerBlockWithoutBlockItem("blueberry_bush", () -> new BerryBushBlock(BBR2Bushes.BERRY_BUSH_PROPERTIES.get(), BBR2Items.BLUEBERRIES));
     public static final DeferredBlock<Block> CANDLEBERRY_BUSH = registerBlockWithoutBlockItem("candleberry_bush", () -> new BerryBushBlock(BBR2Bushes.BERRY_BUSH_PROPERTIES.get(), BBR2Items.CANDLEBERRIES));
     public static final DeferredBlock<Block> CRANBERRY_BUSH = registerBlockWithoutBlockItem("cranberry_bush", () -> new BerryBushBlock(BBR2Bushes.BERRY_BUSH_PROPERTIES.get(), BBR2Items.CRANBERRIES));
+    public static final DeferredBlock<Block> CRIMSONBERRY_BUSH = registerBlockWithoutBlockItem("crimsonberry_bush", () -> new BerryBushBlock(BBR2Bushes.BERRY_BUSH_PROPERTIES.get(), BBR2Items.CRIMSONBERRIES, BBR2Bushes.PLACEABLE_ON_CRIMSON));
     public static final DeferredBlock<Block> MALOBERRY_BUSH = registerBlockWithoutBlockItem("maloberry_bush", () -> new BerryBushBlock(BBR2Bushes.BERRY_BUSH_PROPERTIES.get(), BBR2Items.MALOBERRIES));
     public static final DeferredBlock<Block> MULBERRY_BUSH = registerBlockWithoutBlockItem("mulberry_bush", () -> new BerryBushBlock(BBR2Bushes.BERRY_BUSH_PROPERTIES.get(), BBR2Items.MULBERRIES));
     public static final DeferredBlock<Block> RASPBERRY_BUSH = registerBlockWithoutBlockItem("raspberry_bush", () -> new BerryBushBlock(BBR2Bushes.BERRY_BUSH_PROPERTIES.get(), BBR2Items.RASPBERRIES));
+    public static final DeferredBlock<Block> SOULBERRY_BUSH = registerBlockWithoutBlockItem("soulberry_bush", () -> new BerryBushBlock(BBR2Bushes.BERRY_BUSH_PROPERTIES.get(), BBR2Items.SOULBERRIES, BBR2Bushes.PLACEABLE_ON_SOUL));
     public static final DeferredBlock<Block> STRAWBERRY_BUSH = registerBlockWithoutBlockItem("strawberry_bush", () -> new BerryBushBlock(BBR2Bushes.BERRY_BUSH_PROPERTIES.get(), BBR2Items.STRAWBERRIES));
+    public static final DeferredBlock<Block> WARPEDBERRY_BUSH = registerBlockWithoutBlockItem("warpedberry_bush", () -> new BerryBushBlock(BBR2Bushes.BERRY_BUSH_PROPERTIES.get(), BBR2Items.WARPEDBERRIES, BBR2Bushes.PLACEABLE_ON_WARPED));
+    public static final DeferredBlock<Block> WASTEBERRY_BUSH = registerBlockWithoutBlockItem("wasteberry_bush", () -> new BerryBushBlock(BBR2Bushes.BERRY_BUSH_PROPERTIES.get(), BBR2Items.WASTEBERRIES, BBR2Bushes.PLACEABLE_ON_NETHERRACK));
 
     private static <T extends Block> DeferredBlock<Block> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<Block> toReturn = BLOCKS.register(name, block);
